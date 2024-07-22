@@ -1,0 +1,170 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    display: flex;
+    flex-direction: column ;
+    background-color: #ffffff;
+    color: #41301c;
+    line-height: 1.6;
+}
+
+header {
+    background-image: url(images/hintergrund.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 1em 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #41301c;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #7a6146;
+
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+footer {
+    background-color: #c19f78;
+    background-size: center;
+    background-position: center;
+    color: #41301c;
+    text-align: center;
+    padding: 1em 0;
+}
+
+    
+
+h1 {
+    color: #41301c;
+    margin-bottom: 10px;
+}
+
+h2, h3 {
+    color: #41301c;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+form input, form button {
+    margin: 5px 0 10px;
+    padding: 10px;
+    border: 1px solid #41301c;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form input:focus, form button:focus {
+    border-color: #41301c;
+    outline: none;
+}
+
+form button {
+    background-color: #41301c;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #c19f78;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+table thead th {
+    background-color: #fff;
+    color: #41301c;
+    text-align: left;
+    padding: 10px;
+}
+
+table tbody td {
+    background-color: #fff;
+    color: #41301c;
+    padding: 10px;
+
+}
+
+table tbody tr:hover {
+    background-color: #7a6146;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content:left; 
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: 0%;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.gallery-item {
+    flex: 0 1 calc(33.33% - 20px);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.gallery-item figcaption {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #41301c;
+}
+
+
